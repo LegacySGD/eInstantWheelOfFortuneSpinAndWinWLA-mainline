@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <family code="2297" desc="Lottery Game" studio="interactive" organizationName="Interactive">
+        <!-- -  For spot supported games: spots are colon separated string like 1:2:3:4:5.Otherwise left blank -->
+        <game name="Wheel Of Fortune Spin And Win WLA" version="1.0.2" gameengineversion="2" gamelogicversion="1.0"
+              number="0"
+              jackpotid=""
+              gametype="L"
+              loadprevstate="N"
+              numberGenerator="RNG"
+              betMultipliers="10,20,50,100,200,300,500,1000,2000,3000,5000"
+              spots=""
+              productId="1"
+              gamegroup="eGames"
+              languages="en,en_US,en_NZ,de_BE,fr_BE,nl_BE,nb_NO,pl_PL"
+              skbPlatformVersion="1.4.0"
+              merchandisePrize="N"
+              stateful="N">   
+
+            <!-- LNB $0.50, $1, $2, $3, $5 & $10 -->
+            <paymodel modelid="300-2297-001"  revealId="4825" revealVersionId="4813"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Wheel Of Fortune Spin And Win WLA : 300-2297-001"
+                      hibethold="28.00" lobethold="28.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2297-001" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2297-001" clienttype="HTML" configcode="PHLP"/> 
+
+            <!-- KY $0.10, $0.20, $0.50, $1, $2, $3, $5, $10, $20, $30 & $50 -->
+            <paymodel modelid="300-2297-002"  revealId="4825" revealVersionId="4813"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Wheel Of Fortune Spin And Win WLA : 300-2297-002"
+                      hibethold="15.00" lobethold="15.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2297-002" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2297-002" clienttype="HTML" configcode="PHLP"/> 
+
+            <!-- GA $0.50, $1, $2, $3, $5, $10 & $20 -->
+            <paymodel modelid="300-2297-003"  revealId="4825" revealVersionId="4813"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Wheel Of Fortune Spin And Win WLA : 300-2297-003"
+                      hibethold="22.00" lobethold="22.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2297-003" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2297-003" clienttype="HTML" configcode="PHLP"/> 
+
+            <!-- ZER $1 -->
+            <!-- <paymodel modelid="300-2297-099"  revealId="2297" revealVersionId="2297"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Wheel Of Fortune Spin And Win WLA : 300-2297-099"
+                      hibethold="35.00" lobethold="31.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2297-099" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2297-099" clienttype="HTML" configcode="PHLP"/>  -->
+
+            <denom currencycode="EUR" amount="0.01"/>
+            <denom currencycode="NOK" amount="0.01"/>
+            <denom currencycode="NZD" amount="0.01,0.02"/>
+            <denom currencycode="PLN" amount="0.01,0.05"/>
+            <denom currencycode="USD" amount="0.01,0.02"/>
+        </game>
+    </family>
